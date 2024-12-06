@@ -21,22 +21,20 @@
     <view class="mt-8 text-center">
       <text class="text-green-400">在线文档：</text>
       <!-- #ifndef H5 -->
-      https://codercup.github.io/unibest-docs/
+      https://unibest.tech
       <!-- #endif -->
       <!-- #ifdef H5 -->
-      <a href="https://codercup.github.io/unibest-docs/" target="_blank">
-        https://codercup.github.io/unibest-docs/
-      </a>
+      <a href="https://unibest.tech" target="_blank">https://unibest.tech</a>
       <!-- #endif -->
     </view>
     <view class="mt-4 text-center">
       <text class="text-green-400">在线预览：</text>
       <!-- #ifndef H5 -->
-      https://codercup.github.io/unibest/
+      https://feige996.github.io/hello-unibest/
       <!-- #endif -->
       <!-- #ifdef H5 -->
-      <a href="https://codercup.github.io/unibest/" target="_blank">
-        https://codercup.github.io/unibest/
+      <a href="https://feige996.github.io/hello-unibest/" target="_blank">
+        https://feige996.github.io/hello-unibest/
       </a>
       <!-- #endif -->
     </view>
