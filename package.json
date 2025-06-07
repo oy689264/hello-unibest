@@ -17,7 +17,6 @@
     "url": "https://github.com/feige996/unibest/issues"
   },
   "homepage": "https://feige996.github.io/hello-unibest/",
-  "packageManager": "pnpm@8.15.1",
   "engines": {
     "node": ">=18",
     "pnpm": ">=7.30"
