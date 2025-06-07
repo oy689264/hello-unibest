@@ -42,6 +42,7 @@
       }
     ]
   },
+  "__esModule": true,
   "pages": [
     {
       "path": "pages/index/index",
