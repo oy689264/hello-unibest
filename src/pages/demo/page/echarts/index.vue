@@ -2,7 +2,7 @@
 {
   layout: 'demo',
   style: {
-    navigationBarTitleText: '图表 dome',
+    navigationBarTitleText: 'echarts图表',
   },
 }
 </route>

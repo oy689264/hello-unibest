@@ -48,6 +48,7 @@ interface NavigateToOptions {
        "/pages/demo/page/lottery/big-wheel" |
        "/pages/demo/page/lottery/nine-grid" |
        "/pages/demo/page/sp-editor/index" |
+       "/pages/demo/page/ucharts/index" |
        "/pages/demo/page/z-paging/index" |
        "/pages-sub/demo/index";
 }

@@ -15,6 +15,15 @@ declare module '@vue/runtime-core' {
     FlyHeader: typeof import('./../components/fly-header/fly-header.vue')['default']
     FlyLogin: typeof import('./../components/fly-login/fly-login.vue')['default']
     FlyNavbar: typeof import('./../components/fly-navbar/fly-navbar.vue')['default']
+    Loading1: typeof import('./../components/qiun-loading/loading1.vue')['default']
+    Loading2: typeof import('./../components/qiun-loading/loading2.vue')['default']
+    Loading3: typeof import('./../components/qiun-loading/loading3.vue')['default']
+    Loading4: typeof import('./../components/qiun-loading/loading4.vue')['default']
+    Loading5: typeof import('./../components/qiun-loading/loading5.vue')['default']
+    QiunDataCharts: typeof import('./../components/qiun-data-charts/qiun-data-charts.vue')['default']
+    QiunError: typeof import('./../components/qiun-error/qiun-error.vue')['default']
+    QiunLoading: typeof import('./../components/qiun-loading/qiun-loading.vue')['default']
+    QiunTitleBar: typeof import('./../components/qiun-title-bar/qiun-title-bar.vue')['default']
     SvgIcon: typeof import('./../components/SvgIcon.vue')['default']
   }
 }
