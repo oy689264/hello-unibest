@@ -32,15 +32,16 @@ const chooseImage = () => {
       console.log(res)
       const tempFilePath = res.tempFiles[0].tempFilePath
       uni.uploadFile({
-        url: 'https://ukw0y1.laf.run/uploadFile',
+        url: 'https://ukw0y1.laf.run/upload',
         filePath: tempFilePath,
         name: 'file',
         formData: {
           user: '菲鸽',
         },
         success: (uploadFileRes) => {
-          console.log(uploadFileRes.data)
-          imgStr.value = uploadFileRes.data
+          console.log(typeof uploadFileRes.data)
+          const data = JSON.parse(uploadFileRes.data)
+          imgStr.value = data.data.url
         },
       })
     },
@@ -53,15 +54,16 @@ const chooseImage = () => {
       console.log(res)
       const tempFilePath = res.tempFilePaths[0]
       uni.uploadFile({
-        url: 'https://ukw0y1.laf.run/uploadFile',
+        url: 'https://ukw0y1.laf.run/upload',
         filePath: tempFilePath,
         name: 'file',
         formData: {
           user: '菲鸽',
         },
         success: (uploadFileRes) => {
-          console.log(uploadFileRes.data)
-          imgStr.value = uploadFileRes.data
+          console.log(typeof uploadFileRes.data)
+          const data = JSON.parse(uploadFileRes.data)
+          imgStr.value = data.data.url
         },
       })
     },
