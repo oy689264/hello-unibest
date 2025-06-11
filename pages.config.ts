@@ -8,7 +8,7 @@ export default defineUniPages({
     navigationBarTextStyle: 'black',
     backgroundColor: '#FFFFFF',
     h5: {
-      navigationStyle: 'custom',
+      // navigationStyle: 'custom',
     },
   },
   easycom: {

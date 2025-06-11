@@ -5,9 +5,7 @@
     "navigationBarBackgroundColor": "#f8f8f8",
     "navigationBarTextStyle": "black",
     "backgroundColor": "#FFFFFF",
-    "h5": {
-      "navigationStyle": "custom"
-    }
+    "h5": {}
   },
   "easycom": {
     "autoscan": true,
