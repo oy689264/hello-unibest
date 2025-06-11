@@ -77,6 +77,7 @@ declare global {
   const useAttrs: typeof import('vue')['useAttrs']
   const useCssModule: typeof import('vue')['useCssModule']
   const useCssVars: typeof import('vue')['useCssVars']
+  const useEcharts: typeof import('../hooks/useEcharts')['useEcharts']
   const useId: typeof import('vue')['useId']
   const useModel: typeof import('vue')['useModel']
   const useNavbarWeixin: typeof import('../hooks/useNavbarWeixin')['default']
@@ -173,6 +174,7 @@ declare module 'vue' {
     readonly useAttrs: UnwrapRef<typeof import('vue')['useAttrs']>
     readonly useCssModule: UnwrapRef<typeof import('vue')['useCssModule']>
     readonly useCssVars: UnwrapRef<typeof import('vue')['useCssVars']>
+    readonly useEcharts: UnwrapRef<typeof import('../hooks/useEcharts')['useEcharts']>
     readonly useId: UnwrapRef<typeof import('vue')['useId']>
     readonly useModel: UnwrapRef<typeof import('vue')['useModel']>
     readonly useNavbarWeixin: UnwrapRef<typeof import('../hooks/useNavbarWeixin')['default']>

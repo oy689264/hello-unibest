@@ -43,6 +43,7 @@ interface NavigateToOptions {
        "/pages/demo/route-interceptor/login-auto" |
        "/pages/demo/route-interceptor/login-model" |
        "/pages/demo/route-interceptor/login-page" |
+       "/pages/demo/page/echarts/index" |
        "/pages/demo/page/img-min/index" |
        "/pages/demo/page/lottery/big-wheel" |
        "/pages/demo/page/lottery/nine-grid" |

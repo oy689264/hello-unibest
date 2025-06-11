@@ -98,12 +98,14 @@
     "@dcloudio/uni-quickapp-webview": "3.0.0-4000820240401001",
     "@dcloudio/uni-ui": "1.5.0",
     "dayjs": "1.11.10",
+    "echarts": "^5.6.0",
+    "lodash-es": "^4.17.21",
     "pinia": "2.0.36",
     "pinia-plugin-persistedstate": "3.2.1",
     "qs": "6.5.3",
     "vue": "3.3.11",
     "vue-i18n": "^9.10.2",
-    "wot-design-uni": "^1.2.13",
+    "wot-design-uni": "^1.9.1",
     "z-paging": "^2.7.8"
   },
   "devDependencies": {

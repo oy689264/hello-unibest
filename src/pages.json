@@ -359,6 +359,14 @@
       }
     },
     {
+      "path": "pages/demo/page/echarts/index",
+      "type": "page",
+      "layout": "demo",
+      "style": {
+        "navigationBarTitleText": "图表 dome"
+      }
+    },
+    {
       "path": "pages/demo/page/img-min/index",
       "type": "page",
       "layout": "demo",
