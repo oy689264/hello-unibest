@@ -27,17 +27,6 @@
       <a href="https://unibest.tech" target="_blank">https://unibest.tech</a>
       <!-- #endif -->
     </view>
-    <view class="mt-4 text-center">
-      <text class="text-green-400">在线预览：</text>
-      <!-- #ifndef H5 -->
-      https://feige996.github.io/hello-unibest/
-      <!-- #endif -->
-      <!-- #ifdef H5 -->
-      <a href="https://feige996.github.io/hello-unibest/" target="_blank">
-        https://feige996.github.io/hello-unibest/
-      </a>
-      <!-- #endif -->
-    </view>
   </view>
 </template>
 
